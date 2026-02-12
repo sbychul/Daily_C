@@ -123,6 +123,9 @@
     <ClCompile Include="Day 27%28연결 리스트 해제%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="commit_push_test.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">

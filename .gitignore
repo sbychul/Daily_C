@@ -1,0 +1,13 @@
+# Visual Studio 임시 폴더 무시
+.vs/
+out/
+
+# 빌드 결과물(실행파일 등) 무시
+x64/
+Debug/
+Release/
+*.exe
+*.pdb
+*.obj
+*.user
+*.ilk
