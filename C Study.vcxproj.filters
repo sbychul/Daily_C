@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="empty form.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 1(알바비 계산기).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 2(나눗셈).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 3-2%28전위, 후위 연산자%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 3-1%28Mini Project, 디지털 시계 변환기%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 4-1%28조건문, 비교 연산자%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 4-2%28학점 계산기%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 5%281부터 n까지의 합 계산기%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 6(1~100 숫자 맞추기).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 7(Array, 성적 평균 계산기).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 8(문자열, char의 배열).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 9(Function).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 10-1%28Pointer-1%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 10-2(Pointer-2).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 11(Pointer - Array).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 12(Struct).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 13(Array of Struct).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 15%28동적 할당%28malloc%29%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 16-1%28File I O 기초%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 16-2(구조체, 동적 할당 복습).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 17-1%28파일 읽기%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 17-2%289일차까지 복습, 키오스크%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 17-3%28전체 복습, 스터디 플래너%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 14(Struct Pointer).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 18%28fgets%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 19(문자열 자르기).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 20(헤더 파일 만들기).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="calculator.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 21(Macro).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 22%28메모리의 주소%28포인터 2회차%29%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 23%28포인터를 이용한 다중 반환%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 24%28자기 참조 구조체 Node%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 24-2 번외편%28수강신청 연습, 무작위 숫자 4개 빨리 입력하기%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 25(반복문을 이용한 노드 생성).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 26(Node의 연결 복수전).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 27%28연결 리스트 해제%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="calculator.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
