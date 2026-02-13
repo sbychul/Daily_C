@@ -126,6 +126,9 @@
     <ClCompile Include="commit_push_test.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 28%28스택%28Stack%29%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">

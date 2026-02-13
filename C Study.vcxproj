@@ -95,6 +95,7 @@
     <ClCompile Include="Day 27%28연결 리스트 해제%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Day 28%28스택%28Stack%29%29.c" />
     <ClCompile Include="Day 3-1%28Mini Project, 디지털 시계 변환기%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
