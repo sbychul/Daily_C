@@ -132,6 +132,9 @@
     <ClCompile Include="Day 29%28Stack에서 데이터 꺼내기, Pop%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 30(FIFO, First In First Out).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
