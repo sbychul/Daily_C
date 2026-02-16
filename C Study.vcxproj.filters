@@ -135,6 +135,9 @@
     <ClCompile Include="Day 30(FIFO, First In First Out).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 31(입장 시작, Dequeue).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">

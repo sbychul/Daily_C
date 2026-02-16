@@ -24,7 +24,7 @@ int main() {
 
 		scanf("%d", &new_node->queue);			// 1. queue 값 입력
 		if (front == NULL || rear == NULL) {	// 2. 처음 넣는 값일 때. (처음이라면 front와 rear가 둘 다 비어있으니까)
-			front = rear = new_node;					// 2-1. 처음 등록 => 첫 번째 사람(front)이자 마지막 사람(rear)이 이 사람(new_node)
+			front = rear = new_node;			// 2-1. 처음 등록 => 첫 번째 사람(front)이자 마지막 사람(rear)이 이 사람(new_node)
 		}
 		else {									// 3. 처음 넣는 값이 아닐 때.
 			rear->next = new_node;				// 3-1. 마지막 사람(rear)의 다음 사람(rear->next)이 지금 들어오는 사람(new_node)

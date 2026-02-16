@@ -107,7 +107,10 @@
     <ClCompile Include="Day 3-2%28전위, 후위 연산자%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 30(FIFO, First In First Out).c" />
+    <ClCompile Include="Day 30(FIFO, First In First Out).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 31(입장 시작, Dequeue).c" />
     <ClCompile Include="Day 4-1%28조건문, 비교 연산자%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
