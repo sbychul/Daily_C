@@ -141,6 +141,9 @@
     <ClCompile Include="Day 32(Circular Queue).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 33(Binary Tree).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">

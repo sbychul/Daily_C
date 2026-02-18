@@ -113,7 +113,10 @@
     <ClCompile Include="Day 31(입장 시작, Dequeue).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 32(Circular Queue).c" />
+    <ClCompile Include="Day 32(Circular Queue).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 33(Binary Tree).c" />
     <ClCompile Include="Day 4-1%28조건문, 비교 연산자%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
