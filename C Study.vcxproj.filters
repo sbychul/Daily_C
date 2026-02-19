@@ -144,6 +144,9 @@
     <ClCompile Include="Day 33(Binary Tree).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 34(트리 순회, Traversal).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
