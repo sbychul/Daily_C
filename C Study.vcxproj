@@ -122,7 +122,10 @@
     <ClCompile Include="Day 34(트리 순회, Traversal).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 35(후위 순회를 이용한 트리 삭제).c" />
+    <ClCompile Include="Day 35(후위 순회를 이용한 트리 삭제).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 36(이진 탐색 트리(BST) 만들기).c" />
     <ClCompile Include="Day 4-1%28조건문, 비교 연산자%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

@@ -150,6 +150,9 @@
     <ClCompile Include="Day 35(후위 순회를 이용한 트리 삭제).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 36(이진 탐색 트리(BST) 만들기).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
