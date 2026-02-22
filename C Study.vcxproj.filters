@@ -153,6 +153,9 @@
     <ClCompile Include="Day 36(이진 탐색 트리(BST) 만들기).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 37(이진 탐색 트리에서 값 찾기).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
