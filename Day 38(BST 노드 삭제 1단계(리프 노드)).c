@@ -73,7 +73,7 @@ struct Node* deleteNode(struct Node* root, int key) {
 	// 2. 삭제할 노드를 찾았을 때 (key == root->data)
 	else {
 		// 자식이 없는 경우 (Leaf Node)
-		if (root->left == NULL && root->right == NULL) { // 자식이 둘일 때 하나만 지우면 이 조건에 걸려서 삭제가 안 됨.
+		if (root->left == NULL && root->right == NULL) { // 부모 노드는 이 조건에 걸려 삭제가 안 됨. return root을 뱉어내고 끝나버림.
 			free(root);
 			return NULL; // 부모에게 "나 이제 없으니 NULL로 채워라"고 알림
 		}

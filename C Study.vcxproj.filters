@@ -159,6 +159,9 @@
     <ClCompile Include="Day 38(BST 노드 삭제 1단계(리프 노드)).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 39(BST 노드 삭제 2단계(자식이 있는 경우)).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
