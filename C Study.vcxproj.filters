@@ -165,6 +165,9 @@
     <ClCompile Include="Day 40(버블 정렬).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 41(선택 정렬).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">

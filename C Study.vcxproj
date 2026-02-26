@@ -143,7 +143,10 @@
     <ClCompile Include="Day 4-2%28학점 계산기%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 40(버블 정렬).c" />
+    <ClCompile Include="Day 40(버블 정렬).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 41(선택 정렬).c" />
     <ClCompile Include="Day 5%281부터 n까지의 합 계산기%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
