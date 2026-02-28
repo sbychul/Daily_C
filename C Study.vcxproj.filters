@@ -171,6 +171,9 @@
     <ClCompile Include="Day 42(삽입 정렬).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 43(포인터로 문자열 다루기).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
