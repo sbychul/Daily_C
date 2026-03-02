@@ -155,7 +155,10 @@
     <ClCompile Include="Day 43(포인터로 문자열 다루기).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 44(입력받은 문자열 뒤집기).c" />
+    <ClCompile Include="Day 44(입력받은 문자열 뒤집기).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 45(팰린드롬 판별).c" />
     <ClCompile Include="Day 5%281부터 n까지의 합 계산기%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

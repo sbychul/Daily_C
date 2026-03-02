@@ -177,6 +177,9 @@
     <ClCompile Include="Day 44(입력받은 문자열 뒤집기).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 45(팰린드롬 판별).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
