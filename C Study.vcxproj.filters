@@ -180,6 +180,15 @@
     <ClCompile Include="Day 45(팰린드롬 판별).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 46(포인터의 배열).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 47(퀵 정렬).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 48(이진 탐색).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
