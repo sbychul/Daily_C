@@ -167,7 +167,10 @@
     <ClCompile Include="Day 47(퀵 정렬).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 48(이진 탐색).c" />
+    <ClCompile Include="Day 48(이진 탐색).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 49(병합 정렬).c" />
     <ClCompile Include="Day 5%281부터 n까지의 합 계산기%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
