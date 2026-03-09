@@ -178,7 +178,10 @@
     <ClCompile Include="Day 5%281부터 n까지의 합 계산기%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 50(함수 포인터).c" />
+    <ClCompile Include="Day 50(함수 포인터).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 51(해시 테이블 기초).c" />
     <ClCompile Include="Day 6(1~100 숫자 맞추기).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

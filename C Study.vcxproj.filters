@@ -195,6 +195,9 @@
     <ClCompile Include="Day 50(함수 포인터).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 51(해시 테이블 기초).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
