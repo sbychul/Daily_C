@@ -198,6 +198,18 @@
     <ClCompile Include="Day 51(해시 테이블 기초).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 52(융합 복습 1일차).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 53-1(시간 복잡도 최적화 - 거듭제곱 계산).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 53-2(시간 복잡도 최적화 - 피보나치 수열).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 54(융합 복습 2일차).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
