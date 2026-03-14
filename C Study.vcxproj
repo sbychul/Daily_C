@@ -196,7 +196,10 @@
     <ClCompile Include="Day 54(융합 복습 2일차).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 55(융합 복습 3일차).c" />
+    <ClCompile Include="Day 55(융합 복습 3일차).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 56(융합 복습 4일차).c" />
     <ClCompile Include="Day 6(1~100 숫자 맞추기).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
