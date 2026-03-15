@@ -1,2 +1,5 @@
-﻿  Day 56(융합 복습 4일차).c
+﻿  Day 57(융합 복습 5일차).c
+S:\Study\C\C Study\C Study\Day 57(융합 복습 5일차).c(41,18): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+S:\Study\C\C Study\C Study\Day 57(융합 복습 5일차).c(52,8): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
+S:\Study\C\C Study\C Study\Day 57(융합 복습 5일차).c(57,8): warning C4133: '=': 'Node *'과(와) 'Node *' 사이의 형식이 호환되지 않습니다.
   C Study.vcxproj -> S:\Study\C\C Study\x64\Debug\C Study.exe

@@ -216,6 +216,9 @@
     <ClCompile Include="Day 56(융합 복습 4일차).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 57(융합 복습 5일차).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
