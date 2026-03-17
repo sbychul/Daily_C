@@ -205,7 +205,10 @@
     <ClCompile Include="Day 57(융합 복습 5일차).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 58%286일차 - 파일 IO 복습%29.c" />
+    <ClCompile Include="Day 58%286일차 - 파일 IO 복습%29.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 59(7일차 - 구조체 배열과 파일 시스템 융학 복습).c" />
     <ClCompile Include="Day 6(1~100 숫자 맞추기).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

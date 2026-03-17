@@ -222,6 +222,9 @@
     <ClCompile Include="Day 58%286일차 - 파일 IO 복습%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 59(7일차 - 구조체 배열과 파일 시스템 융학 복습).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
