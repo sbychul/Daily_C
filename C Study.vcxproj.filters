@@ -219,10 +219,13 @@
     <ClCompile Include="Day 57(융합 복습 5일차).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Day 58%286일차 - 파일 IO 복습%29.c">
+    <ClCompile Include="Day 58(6일차 - 파일 IO 복습).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Day 59(7일차 - 구조체 배열과 파일 시스템 융학 복습).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 60(8일차 - 포인터를 이용한 swap).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
