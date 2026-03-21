@@ -228,6 +228,9 @@
     <ClCompile Include="Day 60(8일차 - 포인터를 이용한 swap).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 61%28스택과 큐 1일차, 기초 복습%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
