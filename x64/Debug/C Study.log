@@ -1,3 +1,7 @@
-﻿  Day 61(스택과 큐 1일차, 기초 복습).c
-S:\Study\C\C Study\C Study\Day 61(스택과 큐 1일차, 기초 복습).c(70,3): warning C4098: 'enqueue': 'void' 함수에서 값을 반환하고 있습니다.
+﻿  Day 62(스택을 이용한 괄호 검사 알고리즘).c
+S:\Study\C\C Study\C Study\Day 62(스택을 이용한 괄호 검사 알고리즘).c(60,27): warning C4047: '함수': 'element'의 간접 참조 수준이 'char'과(와) 다릅니다.
+S:\Study\C\C Study\C Study\Day 62(스택을 이용한 괄호 검사 알고리즘).c(60,27): warning C4024: 'push': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+S:\Study\C\C Study\C Study\Day 62(스택을 이용한 괄호 검사 알고리즘).c(65,30): warning C4047: '!=': 'element'의 간접 참조 수준이 'int'과(와) 다릅니다.
+S:\Study\C\C Study\C Study\Day 62(스택을 이용한 괄호 검사 알고리즘).c(70,30): warning C4047: '!=': 'element'의 간접 참조 수준이 'int'과(와) 다릅니다.
+S:\Study\C\C Study\C Study\Day 62(스택을 이용한 괄호 검사 알고리즘).c(75,30): warning C4047: '!=': 'element'의 간접 참조 수준이 'int'과(와) 다릅니다.
   C Study.vcxproj -> S:\Study\C\C Study\x64\Debug\C Study.exe

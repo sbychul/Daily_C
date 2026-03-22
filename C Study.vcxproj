@@ -217,7 +217,10 @@
     <ClCompile Include="Day 60(8일차 - 포인터를 이용한 swap).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 61%28스택과 큐 1일차, 기초 복습%29.c" />
+    <ClCompile Include="Day 61%28스택과 큐 1일차, 기초 복습%29.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 62(스택을 이용한 괄호 검사 알고리즘).c" />
     <ClCompile Include="Day 7(Array, 성적 평균 계산기).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
