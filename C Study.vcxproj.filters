@@ -234,6 +234,9 @@
     <ClCompile Include="Day 62(스택을 이용한 괄호 검사 알고리즘).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 63%28스택을 이용한 후위 표기식 계산%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
