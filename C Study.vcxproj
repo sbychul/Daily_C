@@ -226,7 +226,10 @@
     <ClCompile Include="Day 62(스택을 이용한 괄호 검사 알고리즘).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 64%28덱%28Deque%29%29.c" />
+    <ClCompile Include="Day 64%28덱%28Deque%29%29.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 65(리스트).c" />
     <ClCompile Include="Day 7(Array, 성적 평균 계산기).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
