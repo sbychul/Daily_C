@@ -229,7 +229,10 @@
     <ClCompile Include="Day 64%28덱%28Deque%29%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 65(리스트).c" />
+    <ClCompile Include="Day 65(리스트).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 66(동적 할당 연결 리스트).c" />
     <ClCompile Include="Day 7(Array, 성적 평균 계산기).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

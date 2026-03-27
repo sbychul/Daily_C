@@ -237,6 +237,15 @@
     <ClCompile Include="Day 63%28스택을 이용한 후위 표기식 계산%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 64%28덱%28Deque%29%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 65(리스트).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 66(동적 할당 연결 리스트).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
