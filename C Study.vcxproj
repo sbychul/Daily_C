@@ -238,7 +238,10 @@
     <ClCompile Include="Day 67(연결 리스트 맨 앞 삽입 및 순회).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 68(연결 리스트 중간에 삽입하기).c" />
+    <ClCompile Include="Day 68(연결 리스트 중간에 삽입하기).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 69(연결 리스트 노드의 삭제).c" />
     <ClCompile Include="Day 7(Array, 성적 평균 계산기).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
