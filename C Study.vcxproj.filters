@@ -246,7 +246,7 @@
     <ClCompile Include="Day 66(동적 할당 연결 리스트).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Day 67().c">
+    <ClCompile Include="Day 67%28연결 리스트 맨 앞 삽입 및 순회%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
