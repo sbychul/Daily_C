@@ -241,7 +241,10 @@
     <ClCompile Include="Day 70(연결 리스트 탐색 및 병합).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 71(원형 연결 리스트).c" />
+    <ClCompile Include="Day 71(원형 연결 리스트).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 72(이중 연결 리스트).c" />
     <ClCompile Include="Day 8(문자열, char의 배열).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
