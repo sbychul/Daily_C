@@ -258,6 +258,9 @@
     <ClCompile Include="Day 73(이중 연결 리스트의 삭제).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 74(연결 리스트 - Search and Delete).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
