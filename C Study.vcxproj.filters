@@ -264,6 +264,12 @@
     <ClCompile Include="Day 75(연결 스택(Linked Stack)의 Push).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 76%28연결 리스트 기반 큐의 Enqueue%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 77(트리의 기초와 순회(복습)).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
