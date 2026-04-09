@@ -1,6 +1,14 @@
 ﻿#include <stdio.h>
 #include <stdlib.h>
 
+// 오늘의 핵심 로직: "재귀적으로 합치기"
+// 교수님의 교안(7.트리.pdf) 40페이지 부근의 내용을 응용한 문제입니다.
+// 트리의 모든 노드를 방문하면서 특정 조건(자식이 없는 노드)을 만족하는 경우를 카운트해야 합니다.
+
+// Case 1 : 노드가 NULL이면 ? 당연히 개수는 0입니다.
+// Case 2 : left와 right가 모두 NULL이면 ? 이것이 바로 단말 노드이므로 1을 반환합니다.
+// Case 3 : 그 외의 경우(자식이 있는 경우)는 ? (왼쪽 서브트리의 단말 노드 수) + (오른쪽 서브트리의 단말 노드 수)를 수행합니다.
+
 typedef struct TreeNode {
     int data;
     struct TreeNode* left, * right;
