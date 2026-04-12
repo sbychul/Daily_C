@@ -270,6 +270,18 @@
     <ClCompile Include="Day 77(트리의 기초와 순회(복습)).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 78(트리의 순회 과정 복습).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 79(단말 노드(Leaf Node) 개수 세기).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 80(트리의 높이 구하기).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 81(이진 탐색에서 원하는 값 찾기 복습).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
