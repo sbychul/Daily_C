@@ -282,6 +282,12 @@
     <ClCompile Include="Day 81(이진 탐색에서 원하는 값 찾기 복습).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 81-2(원형 연결 리스트를 이용한 덱 구현).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 82(이진 트리 삽입).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
