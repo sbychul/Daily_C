@@ -6,6 +6,12 @@
 // 자식이 없으므로 그냥 노드를 메모리 해제(free)하고, 부모와의 연결을 NULL로 끊으면 끝입니다.
 // Case 2 : 자식이 1개인 노드 삭제
 // 자신을 지우고, 자신의 유일한 자식을 부모 노드에 직접 연결해 줍니다. (마치 할아버지가 손자의 손을 바로 잡는 것과 같습니다.)
+// 
+// Case 3 : 자식이 2개인 노드 삭제
+// 후계자(Successor) 고르기
+// BST의 규칙을 지키면서 빈자리를 채울 가장 적합한 후보는 딱 두 명입니다.
+// 후보 1: 왼쪽 서브트리에서 가장 큰 값
+// 후보 2 : 오른쪽 서브트리에서 가장 작은 값(교안에서 채택한 방식)
 
 typedef struct TreeNode {
     int key;
@@ -19,7 +25,17 @@ TreeNode* new_node(int key) {
     return temp;
 }
 
-// 🚀 [오늘의 미션] 이진 탐색 트리 삭제 함수 구현 (Case 1 & 2)
+// 🚀 [84일차 미션 A] 가장 작은 값을 가진 노드를 찾는 함수
+TreeNode* min_value_node(TreeNode* node) {
+    TreeNode* current = node;
+    // 맨 왼쪽 끝까지 내려가야 가장 작은 값이 나오기에, 왼쪽 끝날 때까지 쭉 이동.
+    while (current->left != NULL) {
+        current = current->left;
+    }
+    return current;
+}
+
+// 🚀 [83일차 미션] 이진 탐색 트리 삭제 함수 구현 (Case 1 & 2)
 TreeNode* delete_node(TreeNode* root, int key) {
     if (root == NULL) return root;
 
@@ -43,8 +59,16 @@ TreeNode* delete_node(TreeNode* root, int key) {
             return temp;
         }
 
-        // [Case 3] 자식이 두 개인 경우 (이번 미션에서는 일단 유지)
-        // (다음 시간에 상세 구현 예정)
+        // [84일차 미션 B] [Case 3] 자식이 두 개인 경우
+        // 1. 오른쪽 서브트리에서 가장 작은 노드(후계자)를 찾기. min_value_node 함수를 오른쪽 서브트리에 사용.
+        TreeNode* temp = min_value_node(root->right);
+
+        // 2. 후계자의 데이터를 현재 노드(root)에 복사.
+        root->key = temp->key;
+
+        // 3. 오른쪽 서브트리에서 후계자 노드를 삭제 (중복된 값이 있으면 안 되니까)
+        // 그리고 그 결과를 root->right에 다시 연결.
+        root->right = delete_node(root->right, temp->key);
     }
     return root;
 }
