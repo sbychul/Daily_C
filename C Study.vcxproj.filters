@@ -288,7 +288,10 @@
     <ClCompile Include="Day 82(이진 트리 삽입).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Day 83(BST 노드 삭제 기초 복습).c">
+    <ClCompile Include="Day 83, 84%28BST 노드 삭제 복습%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 85%28우선순위 큐, 최소 힙의 Upheap과 Downheap%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
