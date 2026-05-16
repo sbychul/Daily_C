@@ -286,7 +286,10 @@
     <ClCompile Include="Day 83, 84%28BST 노드 삭제 복습%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 85%28우선순위 큐, 최소 힙의 Upheap과 Downheap%29.c" />
+    <ClCompile Include="Day 85%28우선순위 큐, 최소 힙의 Upheap과 Downheap%29.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 86(우선순위 큐 - 허프만 코드).c" />
     <ClCompile Include="Day 9(Function).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

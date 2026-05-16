@@ -294,6 +294,9 @@
     <ClCompile Include="Day 85%28우선순위 큐, 최소 힙의 Upheap과 Downheap%29.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 86(우선순위 큐 - 허프만 코드).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
