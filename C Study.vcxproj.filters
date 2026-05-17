@@ -297,6 +297,9 @@
     <ClCompile Include="Day 86(우선순위 큐 - 허프만 코드).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 87(리스트로 구현한 그래프).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
