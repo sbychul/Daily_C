@@ -300,6 +300,9 @@
     <ClCompile Include="Day 87(리스트로 구현한 그래프).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 88%28그래프 깊이 우선 탐색%28DFS%29%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
