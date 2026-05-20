@@ -45,7 +45,7 @@ void dfs(GraphType* g, int v) {
     // g->adj_list[v]가 리스트의 첫 번째 노드이고, 다음 노드는 w->link로 이동.
     for (w = g->adj_list[v]; w != NULL; w = w->link) {
 
-        // 인접 정점(w->vertex)을 아직 방문하지 않았다면, 재귀적으로 dfs를 호출하세요.
+        // 인접 정점(w->vertex)을 아직 방문하지 않았다면, 재귀적으로 dfs를 호출.
         if (!visited[w->vertex]) dfs(g, w->vertex);
 
     }
