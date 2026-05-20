@@ -295,7 +295,10 @@
     <ClCompile Include="Day 87(리스트로 구현한 그래프).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 88%28그래프 깊이 우선 탐색%28DFS%29%29.c" />
+    <ClCompile Include="Day 88%28그래프 깊이 우선 탐색%28DFS%29%29.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 89(그래프 넓이 우선 탐색(BFS)).c" />
     <ClCompile Include="Day 9(Function).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
