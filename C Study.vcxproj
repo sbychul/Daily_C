@@ -313,7 +313,10 @@
     <ClCompile Include="Day 92(프림 알고리즘).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 93(Kruskal 알고리즘).c" />
+    <ClCompile Include="Day 93(Kruskal 알고리즘).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 94(Floyd 알고리즘).c" />
     <ClCompile Include="empty form.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

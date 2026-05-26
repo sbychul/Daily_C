@@ -318,6 +318,9 @@
     <ClCompile Include="Day 93(Kruskal 알고리즘).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 94(Floyd 알고리즘).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
