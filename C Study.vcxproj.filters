@@ -321,6 +321,18 @@
     <ClCompile Include="Day 94(Floyd 알고리즘).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 95(O(n^2) 정렬 3대장).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 96-1%28셸 정렬%29.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 96-2(합병 정렬).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 97(퀵 정렬).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
