@@ -328,7 +328,10 @@
     <ClCompile Include="Day 96-2(합병 정렬).c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 97(퀵 정렬).c" />
+    <ClCompile Include="Day 97(퀵 정렬).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 98(라딕스 정렬).c" />
     <ClCompile Include="empty form.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
