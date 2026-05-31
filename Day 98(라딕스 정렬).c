@@ -37,7 +37,7 @@ void radix_sort(int list[], int n) {
         i = 0; // list의 인덱스 초기화
         for (b = 0; b < BUCKETS; b++) { // 0부터 버킷의 최대 크기까지 순회
             while (!is_empty(&queues[b])) { // b가 가리키고 있는 버킷이 빌 때까지
-                list[i++] = dequeue(&queues[b]); // enqueue하여 배열에 삽입 = 자릿수 정렬 완료
+                list[i++] = dequeue(&queues[b]); // dequeue하여 배열에 삽입 = 자릿수 정렬 완료
             }
         }
 
