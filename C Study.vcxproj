@@ -334,7 +334,10 @@
     <ClCompile Include="Day 98-1%28라딕스 정렬%29.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Day 98-2(순차 탐색과 이진 탐색).c" />
+    <ClCompile Include="Day 98-2(순차 탐색과 이진 탐색).c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Day 99(색인 순차 탐색).c" />
     <ClCompile Include="empty form.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
