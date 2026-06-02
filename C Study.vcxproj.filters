@@ -342,6 +342,9 @@
     <ClCompile Include="Day 99(색인 순차 탐색).c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Day 100(보간 탐색).c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calculator.h">
